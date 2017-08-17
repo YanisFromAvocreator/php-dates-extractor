@@ -1,5 +1,5 @@
 <?php
-function find_date($text){
+function extract_dates($text){
 
     $months_model = [
         "FR" => [

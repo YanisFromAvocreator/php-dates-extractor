@@ -30,3 +30,12 @@ This function can extract 30 date formats in french and english. Some examples a
 * 12/03/2015
 * 03/déc/2015
 ...
+
+# Usage
+
+<pre>
+include('dates-extractor.php');
+$dates = extract_dates($text);
+
+print_r($dates);
+</pre>
